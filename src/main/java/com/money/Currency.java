@@ -4,7 +4,7 @@ public class Currency {
     private String name;
 
     public String getName() {
-        return name;
+        return name + "nnn";
     }
 
     public void setName(String name) {

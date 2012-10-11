@@ -8,4 +8,7 @@ public class Money {
 //        getCurrency();
     }
 
+    public static void setCurrency(Object currency) {
+        Money.currency = currency;
+    }
 }

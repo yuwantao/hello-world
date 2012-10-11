@@ -5,10 +5,10 @@ public class Money {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
-//        getCurrency();
+        getCurrency();
     }
 
-    public static void setCurrency(Object currency) {
-        Money.currency = currency;
+    public static Object getCurrency() {
+        return currency;
     }
 }

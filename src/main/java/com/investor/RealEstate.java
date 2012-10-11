@@ -11,4 +11,6 @@ public class RealEstate {
     }
 
     private String name;
+
+    private int age;
 }

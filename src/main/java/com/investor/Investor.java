@@ -7,6 +7,14 @@ public class Investor {
 
     private int type;
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     private String abc;
 
     public Investor(String name) {
